@@ -1,4 +1,0 @@
-C:\Development\Ricardo.Technical.Test\Ricardo.Services\obj\Debug\net7.0\Ricardo.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Development\Ricardo.Technical.Test\Ricardo.Services\obj\Debug\net7.0\Ricardo.Services.AssemblyInfoInputs.cache
-C:\Development\Ricardo.Technical.Test\Ricardo.Services\obj\Debug\net7.0\Ricardo.Services.AssemblyInfo.cs
-C:\Development\Ricardo.Technical.Test\Ricardo.Services\obj\Debug\net7.0\Ricardo.Services.csproj.CoreCompileInputs.cache
