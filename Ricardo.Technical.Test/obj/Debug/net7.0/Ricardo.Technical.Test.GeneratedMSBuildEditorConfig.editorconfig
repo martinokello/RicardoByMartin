@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Ricardo.Technical.Test
+build_property.RootNamespace = Ricardo.Technical.Test
+build_property.ProjectDir = C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/Browse.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJvd3NlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/Checkout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/Components/BasketItems.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xCYXNrZXRJdGVtcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/Components/BasketWidget.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xCYXNrZXRXaWRnZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/Components/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xQcm9kdWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/Components/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xQcm9kdWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/Components/UserWidget.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xVc2VyV2lkZ2V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/OrderConfirmed.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJDb25maXJtZWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/OrderHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJIaXN0b3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/SignIn.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbkluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/ViewBasket.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0Jhc2tldC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Shared/Shop.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3AucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-khipbxl5jp
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jd5u7eg3j2
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/Ricardo.Technical.Test/Ricardo.Technical.Test/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

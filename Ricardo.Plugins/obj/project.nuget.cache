@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZHSgtbyGhAgmDwgT0egskVRNE+wQb/id+uO0UvMz0KYl/k6FSVSRHcUHpWp3rNSif4JU2tv86nDkHCd7I2spAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\Ricardo.Technical.Test\\Ricardo.Plugins\\Ricardo.Plugins.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mart4\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.14\\microsoft.aspnetcore.authorization.7.0.14.nupkg.sha512",
+    "C:\\Users\\mart4\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.14\\microsoft.aspnetcore.components.7.0.14.nupkg.sha512",
+    "C:\\Users\\mart4\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.14\\microsoft.aspnetcore.components.analyzers.7.0.14.nupkg.sha512",
+    "C:\\Users\\mart4\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.14\\microsoft.aspnetcore.metadata.7.0.14.nupkg.sha512",
+    "C:\\Users\\mart4\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\mart4\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\mart4\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\mart4\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

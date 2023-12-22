@@ -1,0 +1,22 @@
+﻿
+<div class="menu-widget-dropdown">
+	<div class="menu-widget">
+		<Icon Name="IconName.PersonBadge" Size="IconSize.x2" />
+	</div>
+	<div class="menu-widget-dropdown-content">
+
+		@if (!IsSignedIn)
+		{
+			<button class="widget-button" type="button" onclick="@NavigateToSignIn">Sign In</button>
+		}
+		else
+		{
+			<button class="widget-button" type="button" onclick="@NavigateToSignOut">Sign Out</button>
+			<div>
+				<span>Signed in as @loggedInUserState.Username</span>
+			</div>
+		}
+		
+	</div>
+	
+</div>

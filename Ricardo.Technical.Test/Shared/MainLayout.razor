@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+@using Ricardo.Technical.Test.Pages.Components
+@code {
+	[Inject] private SignInOutState signInOutState { get; set; } = null!;
+
+	public void SetChangedSignIn(bool signIn)
+	{
+		signInOutState.SetIsSignedIn(signIn);
+		StateHasChanged();
+	}
+}
+<PageTitle>Pen n' Paper</PageTitle>
+
+<div class="page">
+	<div class="sidebar">
+		<NavMenu />
+	</div>
+
+	<main>
+		<div class="top-row px-4">
+			<UserWidget IsSignedIn="signInOutState.IsSignedIn" />
+			<BasketWidget />
+		</div>
+		<article class="content px-4">
+			<Shop>
+				@Body
+			</Shop>
+		</article>
+	</main>
+</div>
+

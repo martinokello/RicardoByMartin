@@ -1,0 +1,55 @@
+﻿@page "/orderhistory"
+
+@using Ricardo.Plugins.Utility
+@using Ricardo.Technical.Test.Utility
+@using Ricardo.UseCases.CustomerOrderHistoryUseCase
+@using Ricardo.Technical.Test.Pages
+@using Ricardo.Models
+@using Blazored.LocalStorage;
+@inject ILocalStorageService localStorage
+@inject Ricardo.Technical.Test.Utility.Navigation NavManager
+@inject SessionManager SessionManager
+
+<h3>Order History</h3>
+
+@code{
+	private Customer customer;
+	private List<OrderItem> orderItems;
+
+	protected override async Task OnInitializedAsync()
+	{
+		await GetHistoryAsync();
+		StateHasChanged();
+	}
+	public async Task GetHistoryAsync()
+	{
+		customer = SessionManager.Customer;
+		if (customer == default!)
+		{
+			NavManager.NavigateTo("/signin");
+			return;
+		}
+		var customerOrderHistoryUseCase = new CustomerOrderHistoryUseCase(localStorage);
+		orderItems = await customerOrderHistoryUseCase.GetCustomerOrderHistory(customer);
+	}
+	
+}
+<div class="grid-container">
+	@if(orderItems != null)
+	@foreach (var item in orderItems)
+	{
+		<div class="grid-item">
+			<div class="grid-description">
+				<div class="grid-header-footer">@item.Item.Name</div>
+				<div class="grid-image-container">
+					<img class="grid-image" src="@item.Item.Image" alt="@item.Item.Name" />
+				</div>
+				<div class="grid-header-footer">£ @item.Item.Price</div>
+			</div>
+			<div>
+				<span>Quantity: @item.Quantity</span>
+				<span>Total: £@item.Total</span>
+			</div>
+		</div>
+	}
+</div>
