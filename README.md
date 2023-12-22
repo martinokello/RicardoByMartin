@@ -5,4 +5,4 @@ outter most layer of Clean Architecture.
 
 Using LocalStorage, I used a library that allows an abstraction of browser local storage to act as Session Storage to allow login/logout effectively.
 
-Use Cases initially defined allowed me to walk through the implementation.
+Use Cases initially defined, allowed me to walk through the implementation.
