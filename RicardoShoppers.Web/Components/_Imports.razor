@@ -1,0 +1,23 @@
+﻿@using System.Net.Http
+@using System.Linq;
+@using System.Net.Http.Json
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using static Microsoft.AspNetCore.Components.Web.RenderMode
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using Microsoft.JSInterop
+@using RicardoShoppers.Web
+@using RicardoShoppers.Web.Components
+@using Ricardo.UseCases.CustomerOrderHistoryUseCase
+@using Ricardo.UseCases.EmptyBasketUseCase
+@using Ricardo.UseCases.RecordStocksNotSoldAnymoreUseCase
+@using Ricardo.Plugins.BankAccount
+@using Ricardo.Plugins.Inventory
+@using Ricardo.Plugins.Repositories
+@using Ricardo.Plugins.Services
+@using Ricardo.Plugins.Utility
+@using Ricardo.Services.Repositories
+@using Ricardo.Models
+@using RicardoShoppers.Web.Components.Pages.PartialComponents
+@using RicardoShoppers.Web.Infrastructure

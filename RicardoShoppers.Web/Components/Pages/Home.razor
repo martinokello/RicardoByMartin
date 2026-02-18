@@ -1,0 +1,45 @@
+﻿@page "/"
+@using System.Linq
+
+@code{
+    
+    public Ricardo.Models.Basket? _Basket { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Ricardo.Models.Basket.OnBasketChanged += (Ricardo.Models.Basket basket) =>
+        {
+            _Basket = basket;
+        };
+    }
+}
+<PageTitle>Shop Goods Display</PageTitle>
+<div class="container-fluid">
+    <h1>Welcome To Ricardo Super Store!</h1><br/>
+    @{
+        var files = new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images")).GetFiles().Where(q => q.Name.ToLower().EndsWith(".jpg")).ToArray();
+        var random = new Random();
+        var numberOfRows = Program.StoreProducts.Count() / 4;
+        numberOfRows = (Program.StoreProducts.Count() % 4 > 0 ? numberOfRows++ : numberOfRows);
+    }
+    <em>Please, read about each product. There are also Services after sale. Note, you should keep your Receipts for a Month to take advantage of these Special Offers.</em><br/><br/>
+ 
+     @for(var n=0;n<numberOfRows;n++)
+     {
+         <div class="row">
+            @foreach(var item in Program.StoreProducts)
+            {
+                <div class="col-lg-3">
+                    <em>@item.Name</em><br /><br />
+                    <img src='@($"images/{files[random.Next(files.Length - 1)].Name}")' alt="@item.Name" style="width:200px !important;height:auto !important;" /><br /><br />
+                    <em>£ @item.Price</em>
+                    <div>
+                        <AddRemoveItem ScopeOfJourney="@ScopeParam.Basket" ItemId="@item.Id"></AddRemoveItem>
+                    </div>
+                </div>
+            }
+        </div>
+     }
+
+
+</div>

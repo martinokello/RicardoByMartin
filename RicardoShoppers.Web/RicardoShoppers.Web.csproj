@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ricardo.Models\Ricardo.Models.csproj" />
+    <ProjectReference Include="..\Ricardo.Plugins\Ricardo.Plugins.csproj" />
+    <ProjectReference Include="..\Ricardo.Technical.Test.Errors\Ricardo.Technical.Test.Errors.csproj" />
+    <ProjectReference Include="..\Ricardo.UseCases\Ricardo.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>

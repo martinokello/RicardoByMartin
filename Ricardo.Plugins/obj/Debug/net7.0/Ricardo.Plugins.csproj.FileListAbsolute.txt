@@ -1,0 +1,17 @@
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\bin\Debug\net7.0\Ricardo.Plugins.deps.json
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\bin\Debug\net7.0\Ricardo.Plugins.dll
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\bin\Debug\net7.0\Ricardo.Plugins.pdb
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\bin\Debug\net7.0\Ricardo.Models.dll
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\bin\Debug\net7.0\Ricardo.Technical.Test.Errors.dll
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\bin\Debug\net7.0\Ricardo.Models.pdb
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\bin\Debug\net7.0\Ricardo.Technical.Test.Errors.pdb
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\Ricardo.Plugins.csproj.AssemblyReference.cache
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\Ricardo.Plugins.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\Ricardo.Plugins.AssemblyInfoInputs.cache
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\Ricardo.Plugins.AssemblyInfo.cs
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\Ricardo.Plugins.csproj.CoreCompileInputs.cache
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\Ricardo.Plugins.csproj.CopyComplete
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\Ricardo.Plugins.dll
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\refint\Ricardo.Plugins.dll
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\Ricardo.Plugins.pdb
+C:\Development\Ricardo.Technical.Test\Ricardo.Plugins\obj\Debug\net7.0\ref\Ricardo.Plugins.dll

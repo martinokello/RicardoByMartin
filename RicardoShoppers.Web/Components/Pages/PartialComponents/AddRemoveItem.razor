@@ -1,0 +1,57 @@
+﻿@rendermode InteractiveServer
+<em>Add Or Remove Item</em>
+<br />
+<span style="text-align:left !important; padding:2px !important;"><button class="btn-primary" id="add" name="add" @onclick="AddItem">( + )</button></span>
+<span style="text-align:right !important; padding:2px !important;"><button class="btn-primary" id="remove" name="remove" @onclick="RemoveItem">( - )</button></span>
+<br />
+@using Ricardo.UseCases
+@code {
+    [Parameter]
+    public ScopeParam ScopeOfJourney { get; set; } = ScopeParam.Basket;
+    [Parameter]
+    public int ItemId { get; set; } = -1;
+    [Inject]
+    public Basket _Basket { get; set; }
+
+    public void AddItem()
+    {
+
+        var itemToAdd = Program.StoreProducts.FirstOrDefault(q => q.Id == ItemId);
+        var addToBasketUseCase = new AddToBasketUseCase();
+
+        switch (ScopeOfJourney)
+        {
+            case ScopeParam.Store:
+
+                break;
+            case ScopeParam.Basket:
+                addToBasketUseCase.AddToBasket(_Basket, new OrderItem(new Item { Id = ItemId, Name = itemToAdd.Name, InventoryQuantity = itemToAdd.InventoryQuantity, Price = itemToAdd.Price, Image = itemToAdd.Image }, 1));
+                break;
+            case ScopeParam.AfterPurchase:
+                break;
+            default:
+
+                break;
+        }
+        Basket.RaiseBasketChanged(_Basket);
+    }
+
+    public void RemoveItem()
+    {
+        switch (ScopeOfJourney)
+        {
+            case ScopeParam.Store:
+
+                break;
+            case ScopeParam.Basket:
+
+                break;
+            case ScopeParam.AfterPurchase:
+
+                break;
+            default:
+
+                break;
+        }
+    }
+}

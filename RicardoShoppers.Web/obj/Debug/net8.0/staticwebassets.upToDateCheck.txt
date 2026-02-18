@@ -1,0 +1,8 @@
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.ico
+wwwroot\images\Dice set.webp
+wwwroot\images\Dice tower.jpg
+wwwroot\images\Dungeon tiles.jpg
+wwwroot\images\Role_playing_gamers.jpg

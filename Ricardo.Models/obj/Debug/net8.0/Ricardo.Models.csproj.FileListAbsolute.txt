@@ -1,0 +1,15 @@
+C:\Development\RicardoShoppers.Web\Ricardo.Models\bin\Debug\net8.0\Ricardo.Models.deps.json
+C:\Development\RicardoShoppers.Web\Ricardo.Models\bin\Debug\net8.0\Ricardo.Models.dll
+C:\Development\RicardoShoppers.Web\Ricardo.Models\bin\Debug\net8.0\Ricardo.Models.pdb
+C:\Development\RicardoShoppers.Web\Ricardo.Models\bin\Debug\net8.0\Ricardo.Technical.Test.Errors.dll
+C:\Development\RicardoShoppers.Web\Ricardo.Models\bin\Debug\net8.0\Ricardo.Technical.Test.Errors.pdb
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\Ricardo.Models.csproj.AssemblyReference.cache
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\Ricardo.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\Ricardo.Models.AssemblyInfoInputs.cache
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\Ricardo.Models.AssemblyInfo.cs
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\Ricardo.Models.csproj.CoreCompileInputs.cache
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\Ricardo..AFAF7A05.Up2Date
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\Ricardo.Models.dll
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\refint\Ricardo.Models.dll
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\Ricardo.Models.pdb
+C:\Development\RicardoShoppers.Web\Ricardo.Models\obj\Debug\net8.0\ref\Ricardo.Models.dll

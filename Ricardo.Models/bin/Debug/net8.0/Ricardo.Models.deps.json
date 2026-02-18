@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ricardo.Models/1.0.0": {
+        "dependencies": {
+          "Ricardo.Technical.Test.Errors": "1.0.0"
+        },
+        "runtime": {
+          "Ricardo.Models.dll": {}
+        }
+      },
+      "Ricardo.Technical.Test.Errors/1.0.0": {
+        "runtime": {
+          "Ricardo.Technical.Test.Errors.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ricardo.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ricardo.Technical.Test.Errors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\bin\Debug\net8.0\Ricardo.Technical.Test.Errors.deps.json
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\bin\Debug\net8.0\Ricardo.Technical.Test.Errors.dll
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\bin\Debug\net8.0\Ricardo.Technical.Test.Errors.pdb
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\obj\Debug\net8.0\Ricardo.Technical.Test.Errors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\obj\Debug\net8.0\Ricardo.Technical.Test.Errors.AssemblyInfoInputs.cache
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\obj\Debug\net8.0\Ricardo.Technical.Test.Errors.AssemblyInfo.cs
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\obj\Debug\net8.0\Ricardo.Technical.Test.Errors.csproj.CoreCompileInputs.cache
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\obj\Debug\net8.0\Ricardo.Technical.Test.Errors.dll
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\obj\Debug\net8.0\refint\Ricardo.Technical.Test.Errors.dll
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\obj\Debug\net8.0\Ricardo.Technical.Test.Errors.pdb
+C:\Development\RicardoShoppers.Web\Ricardo.Technical.Test.Errors\obj\Debug\net8.0\ref\Ricardo.Technical.Test.Errors.dll

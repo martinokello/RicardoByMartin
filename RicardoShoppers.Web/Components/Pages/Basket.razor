@@ -1,0 +1,61 @@
+﻿@page "/basket"
+<h3>Basket</h3>
+@rendermode InteractiveServer
+@code{
+   
+    public Ricardo.Models.Basket _Basket { get; set; }
+
+
+    protected override void OnInitialized()
+    {
+        Ricardo.Models.Basket.OnBasketChanged += (Ricardo.Models.Basket basket) =>
+        {
+            _Basket = basket;
+            if (_Basket == null)
+            {
+                _Basket = new Ricardo.Models.Basket();
+
+                _Basket.Items = Program.StoreProducts.Select(p => new Ricardo.Models.OrderItem(p, 1)).ToList();
+
+            }
+        }; 
+        if (_Basket == null)
+        {
+            _Basket = new Ricardo.Models.Basket();
+
+            _Basket.Items = Program.StoreProducts.Select(p => new Ricardo.Models.OrderItem(p, 1)).ToList();
+
+        }
+    }
+}
+
+<div class="container-fluid">
+    <h1>Welcome To Ricardo Super Store!</h1><br />
+    @{
+        var files = new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images")).GetFiles().Where(q => q.Name.ToLower().EndsWith(".jpg")).ToArray();
+        var random = new Random();
+        var numberOfRows = Program.StoreProducts.Count() / 4;
+        numberOfRows = (Program.StoreProducts.Count() % 4 > 0 ? numberOfRows++ : numberOfRows);
+    }
+    <em>Please, read about each product. There are also Services after sale. Note, you should keep your Receipts for a Month to take advantage of these Special Offers.</em><br /><br />
+    
+    @for (var n = 0; n < numberOfRows; n++)
+    {
+        if (_Basket != null)
+        {
+            <div class="row">
+                @for (var item = 0; item < _Basket.Items.Count; item++)
+                {
+                    <div class="col-lg-3">
+                        <em>@_Basket.Items[item].Item.Name</em><br /><br />
+                        <img src='@($"images/{files[random.Next(files.Length - 1)].Name}")' alt="@_Basket.Items[item].Item.Name" style="width:200px !important;height:auto !important;" /><br /><br />
+                        <em>£ @_Basket.Items[item].Item.Price</em>
+                        <div>
+                            <AddRemoveItem ScopeOfJourney="@ScopeParam.Basket" ItemId="@_Basket.Items[item].Item.Id"></AddRemoveItem>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    }
+</div>

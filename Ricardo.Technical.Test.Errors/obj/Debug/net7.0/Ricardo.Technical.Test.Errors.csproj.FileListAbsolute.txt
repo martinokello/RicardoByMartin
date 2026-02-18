@@ -1,0 +1,11 @@
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\bin\Debug\net7.0\Ricardo.Technical.Test.Errors.deps.json
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\bin\Debug\net7.0\Ricardo.Technical.Test.Errors.dll
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\bin\Debug\net7.0\Ricardo.Technical.Test.Errors.pdb
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\obj\Debug\net7.0\Ricardo.Technical.Test.Errors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\obj\Debug\net7.0\Ricardo.Technical.Test.Errors.AssemblyInfoInputs.cache
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\obj\Debug\net7.0\Ricardo.Technical.Test.Errors.AssemblyInfo.cs
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\obj\Debug\net7.0\Ricardo.Technical.Test.Errors.csproj.CoreCompileInputs.cache
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\obj\Debug\net7.0\Ricardo.Technical.Test.Errors.dll
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\obj\Debug\net7.0\refint\Ricardo.Technical.Test.Errors.dll
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\obj\Debug\net7.0\Ricardo.Technical.Test.Errors.pdb
+C:\Development\Ricardo.Technical.Test\Ricardo.Technical.Test.Errors\obj\Debug\net7.0\ref\Ricardo.Technical.Test.Errors.dll
